@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receive Form Data On Email</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@200;300;400;500;600;700;800&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="parent">
+                    <form method="post">
+                        <h2>Get In Tuch</h2>
+                        <input class="input-design" type="text" name="" id="name" placeholder="Name">
+                        <input class="input-design" type="text" name="" id="phone" placeholder="Contact Number">
+                        <input class="input-design" type="email" name="" id="email" placeholder="Email">
+                        <textarea class="input-design" name="" id="message" placeholder="Your Message"></textarea>
+                        <button class="send-button" id="btn">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/smtp.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

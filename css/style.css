@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background: #ebebeb;
+}
+/* =============common css end============ */
+.parent {
+    width: 40%;
+    padding: 10px 10px;
+    margin: 20% auto; 
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color: #3f1dff;
+    margin-bottom: 20px;
+}
+.input-design{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 4px 15px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid #d6d6d6;
+}
+.send-button{
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    border: 1p solid #d6d6d6;
+    outline: none;
+    height: 40px;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    border: none;
+}
+@media (max-width: 576px) { 
+    .parent {
+        width: 100%;
+    }
+}
